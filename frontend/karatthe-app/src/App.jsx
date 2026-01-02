@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './context/Authcontext.jsx';
 import AuthLayout from './components/auth/Authlayout';
+import CartIcon from './components/common/CartIcon';
 import AdminDashboard from './components/admin/AdminDashboard';
 import ProtectedRoute from './components/common/ProtectedRoute';
 import './App.css';
